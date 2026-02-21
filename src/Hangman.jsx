@@ -154,7 +154,7 @@ export default function Hangman() {
           </div>
           
         )}
-        <h2 className="title1">Created by Sania & Shaista </h2>
+        <h2 className="title1">Created by Sania, Shaista & Zeba </h2>
       </div>
     </div>
   );
