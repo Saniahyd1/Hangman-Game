@@ -1,0 +1,114 @@
+/* Background */
+.game-wrapper {
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #3a0ca3, #000814);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+/* Card */
+.game-card {
+  background: linear-gradient(145deg, #869fd6, #00020c);
+  padding: 30px;
+  border-radius: 20px;
+  width: 420px;
+  box-shadow: 0 0 40px rgba(148, 174, 174, 0.15);
+  text-align: center;
+}
+
+/* Title */
+.title {
+  font-size: 2.2rem;
+  color: #ffd60a;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px #ffd60a;
+}
+
+/* Score */
+.score {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-weight: bold;
+  color: #00f5d4;
+}
+
+/* Word */
+.word {
+  font-size: 2rem;
+  letter-spacing: 8px;
+  margin: 20px 0;
+  color: #f1faee;
+}
+
+/* Status */
+.status {
+  margin-bottom: 15px;
+  color: #e95f64;
+}
+
+/* Buttons grid */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+}
+
+/* Letter buttons */
+.letter-btn {
+  background: linear-gradient(135deg, #7209b7, #560bad);
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.letter-btn:hover:not(:disabled) {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #885fa7;
+}
+
+.letter-btn:disabled {
+  background: #000000;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* Result */
+.result {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.result.win {
+  background: rgba(32, 139, 75, 0.15);
+  color: #00ff64;
+}
+
+.result.lose {
+  background: rgba(255, 0, 80, 0.15);
+  color: #ff0054;
+}
+
+/* Play again */
+.play-btn {
+  margin-top: 10px;
+  background: #ffd60a;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.play-btn:hover {
+  box-shadow: 0 0 15px #ffd60a;
+}
