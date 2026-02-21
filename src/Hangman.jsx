@@ -115,7 +115,8 @@ export default function Hangman() {
   return (
     <div className="game-wrapper">
       <div className="game-card">
-        <h1 className="title">🎯 Hangman</h1>
+        <h1 className="title">St.Ann's  <br/>Hangman-Game</h1>
+        
         <div className="score">Score: {score}</div>
 
         {/* ✅ Hangman image */}
@@ -149,8 +150,11 @@ export default function Hangman() {
             <button className="play-btn" onClick={startGame}>
               Play Again
             </button>
+            
           </div>
+          
         )}
+        <h2 className="title1">Created by Sania & Shaista </h2>
       </div>
     </div>
   );
