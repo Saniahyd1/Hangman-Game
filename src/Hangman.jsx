@@ -52,6 +52,27 @@ const WORDS = [
   "FIREWALL",
   "PERIPHERAL",
   "PIPELINING",
+  "LOCALHOST",
+  "PACKAGE",
+  "GITHUB",
+  "README",
+  "BROWSER",
+  "WEBPACK",
+  "OPENAI",
+  "ROUTER",
+  "SCRIPTING",
+  "UPLOAD",
+  "SPYWARE",
+  "DIGITALIZATION",
+  "MALWARE",
+  "FIRMWARE",
+  "HYPERVISOR",
+  "VIRTUALMACHINE",
+  "CLUSTERING",
+  "AGGREGATION",
+  "DECOMPRESSION",
+  "COMPRESSION",
+
 ];
 
 const MAX_LIMBS = 6;
@@ -154,7 +175,7 @@ export default function Hangman() {
           </div>
           
         )}
-        <h2 className="title1">Created by Sania, Shaista & Zeba </h2>
+        <h2 className="title1">Created by Sania & Shaista </h2>
       </div>
     </div>
   );
