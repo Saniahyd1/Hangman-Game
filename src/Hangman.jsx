@@ -31,7 +31,8 @@ const WORDS = [
   "NAMESPACE",
   "SYNCHRONIZATION " ,
   "PHISHING ",
-  
+  "SERVER",
+  "NETWORK",
   "DOCKER",
   "VIRTUALIZATION",
   "QUICKSORT",
